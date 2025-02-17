@@ -1,0 +1,156 @@
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+    .wrapper-section {
+        height: auto;
+        min-height: 100vh;
+      }
+      .toggle-icon{
+        display: block;
+      }
+      .hero-section {
+        flex-direction: column;
+        padding: 20px;
+      }
+      .hero-text {
+        width: 100%;
+        text-align: center;
+      }
+
+ul.dropdown-menu {
+  position:sticky;
+  top: 100%;
+  left: 0;
+  box-shadow:0;
+  margin: 0;
+  padding: 0;
+  min-width: 160px;
+  z-index: 10;
+}
+
+     
+  .nav-links {
+    display: none;
+    position: absolute;
+    top:80px;
+    left: 0;
+    width: 100%;
+    background: rgb(235, 235, 235);
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+
+  }
+  
+  @media (max-width: 922px) {
+    .hero-text h1 {
+      font-size: 48px;
+    }
+    .hero-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .footer-row{
+      flex-direction: column;
+      gap:30px;
+    }
+    .row{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+  .buttons-option-row{
+    flex-wrap:wrap;
+  }
+  .row{
+    flex-direction: column;
+  }
+  .right-col,.left-img{
+    max-width:100%;
+  }
+  .team-gallery {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  
+  
+  }
+  
+  @media (max-width: 546px) {
+    .hero-text h1{
+      font-size: 40px;
+      margin-bottom:0;
+      padding-top:40px;
+    }
+    .hero-text h1 span{
+      margin:0;
+    }
+    .hero-text{
+      padding-left:0;
+    }
+    .hero-section{
+      padding:0;
+    }
+    .our-services{
+      padding:50px 20px;
+    }
+    .nav-links-foot ul{
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 425px) {
+
+
+
+    .hero-text h1, h1 span {
+      font-size: 32px;
+      line-height:42px;
+    }
+    h2{
+      font-size:28px;
+    }
+    h4{
+      font-size:24px;
+    }
+    h3{
+      display: flex;
+      margin: auto;
+    }
+    .step-count{
+      padding:0px;
+    }
+    .center-text P{
+      padding:5px 0 20px 0;
+      font-size:14px;
+    }
+    .step-row{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .team-gallery {
+      grid-template-columns: 1fr; 
+    }
+  
+  }
+  
+  @media (max-width: 320px) {
+ 
+  }

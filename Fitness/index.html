@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Great Fitness - Yoga Studio</title>
+    <link rel="icon" href="assets/images/fitness_logo-web.svg" >
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/media-query.css" >
+<link rel="stylesheet" href="fonts/stylesheet.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    >
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    <!-- WRAPPER-SECTION & HERO-SECTION -->
+   
+    <div class="main-container">
+    <div class="wrapper-section">
+      <div class="container">
+        <!-- HEADER -->
+
+        <header class="header">
+          <div class="logo-container">
+            <a href="#">
+              <img
+                src="assets/images/fitness_logo-web.svg"
+                alt="Logo"
+                class="logo-img"
+              >
+              <div class="logo-text">
+                <h5>Great<span> Fitness</span></h5>
+                <h6>Yoga Studio</h6>
+              </div>
+            </a>
+          </div>
+
+          <!-- NAV-LINKS -->
+
+          <nav class="nav-links">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li class="dropdown">
+                <a href="#services">
+                  Services
+                  <img src="assets/images/ArrowDown.svg" alt="ArrowDown Icon" >
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#spa-area">Spa Area</a></li>
+                  <li><a href="#changing-rooms">Changing Rooms</a></li>
+                  <li><a href="#free-lessons">Free Lessons</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#our-facility">
+                  Our Facility
+                  <img src="assets/images/ArrowDown.svg" alt="ArrowDown Icon" >
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#fly-yoga">Fly-Yoga</a></li>
+                  <li><a href="#yin-yoga">Yin-Yoga</a></li>
+                  <li><a href="#flo-yoga">Flo-Yoga</a></li>
+                </ul>
+              </li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <button class="shop-btn">
+                <a href="#"
+                  ><img src="assets/images/shop_icon.svg" alt="Shop CartIcon" > Shop
+                  Now</a
+                >
+              </button>
+            </ul>
+          </nav>
+          <div class="toggle-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </header>
+
+        <!-- HERO-SECTION -->
+
+        <section class="hero-section" id="home">
+          <div class="hero-text">
+            <h1>Yoga First <span>Fitness Always</span></h1>
+            <p>
+              Welcome to Great Fitness, Los Angeles' premier destination for
+              yoga and fitness enthusiasts. Nestled in the vibrant heart of the
+              city, we offer a sanctuary where mind, body, and spirit align.
+            </p>
+            <div class="hero-buttons">
+              <button class="btn-book">
+                <a href="#">Book A Session</a>
+              </button>
+              <div class="contact-us">
+                <a href="#">Contact Us</a>
+                <img
+                  src="assets/images/ph_caret-circle-right.svg"
+                  alt="Right Icon Circle"
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+</div>
+
+    <!-- OUR-SERVICES-SECTION -->
+
+    <section class="our-services">
+      <div class="container">
+        <div class="center-text">
+          <h2>Our Services</h2>
+          <p>Sub Heading To Explain More</p>
+        </div>
+      </div>
+        <div class="main-container">
+        <div class="Swiper mySwiper" style="overflow:hidden;">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="service-col-box active" style="padding-top:95px;">
+                <h4>Get Started With Your Free Trial</h4>
+                <p>
+                  Libero nunc facilisis auctor diam suspendisse pharetra nisi.
+                  Mauris ornare imperdiet.
+                </p>
+                <button class="get-btn">
+                  <a href="#">Get Started Today</a>
+                </button>
+              </div>
+            </div>
+
+            <div class="swiper-slide" id="spa-area">
+              <div class="service-col-box">
+                <div>
+                  <img src="assets/images/spa-area.svg" alt="Spa Area" >
+                </div>
+              
+                <h5>Spa Area</h5>
+                <p>
+                  Libero nunc facilisis auctor diam suspendisse pharetra nisi.
+                  Mauris ornare imperdiet.
+                </p>
+                <button class="more-btn">
+                  <a href="#">Learn More</a>
+                </button>
+              </div>
+            </div>
+            <div class="swiper-slide" id="free-lessons">
+              <div class="service-col-box">
+                <div>
+                  <img src="assets/images/free_lessons.svg" alt="free_lessons" >
+                </div>
+               
+                <h5>Free Lessons</h5>
+                <p>
+                  Libero nunc facilisis auctor diam suspendisse pharetra nisi.
+                  Mauris ornare imperdiet.
+                </p>
+                <button class="more-btn">
+                  <a href="#">Learn More</a>
+                </button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="service-col-box">
+                <div>
+                  <img src="assets/images/free_rugs.svg" alt="free_rugs" >
+                </div>
+               
+                <h5>Free Rugs</h5>
+                <p>
+                  Libero nunc facilisis auctor diam suspendisse pharetra nisi.
+                  Mauris ornare imperdiet.
+                </p>
+                <button class="more-btn">
+                  <a href="#">Learn More</a>
+                </button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="service-col-box" id="changing-rooms">
+                <div>
+                  <img src="assets/images/changing_rooms.svg" alt="Changing Rooms" >
+                </div>
+
+                <h5>Changing Rooms</h5>
+                <p>
+                  Libero nunc facilisis auctor diam suspendisse pharetra nisi.
+                  Mauris ornare imperdiet.
+                </p>
+                <button class="more-btn">
+                  <a href="#">Learn More</a>
+                </button>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="service-col-box">
+                <div class="our-img">
+                  <img src="assets/images/free_rugs.svg" alt="Free Rugs" >
+                </div>
+             
+                <h5>Free Rugs</h5>
+                <p>
+                  Libero nunc facilisis auctor diam suspendisse pharetra nisi.
+                  Mauris ornare imperdiet.
+                </p>
+                <button class="more-btn">
+                  <a href="#">Learn More</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Arrow-Next & Prev -->
+        <div class="arrow-row">
+          <div class="swiper-button-next-custom">
+            <img src="assets/images/ArrowLeft.svg" alt="Arrow Left Icon" >
+          </div>
+          <div class="swiper-button-prev-custom">
+            <img src="assets/images/ArrowRight.svg" alt="Arrow Right Icon" >
+          </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- LATEST-CLASSES-SECTION -->
+
+    <section class="classes-section">
+      <div class="container">
+        <div class="center-text">
+          <h2>Latest Classes</h2>
+          <p>Sub Heading To Explain More</p>
+          <div class="buttons-option">
+            <div class="buttons-option-row">
+              <button class="latest-classes">
+                <a href="#"> Beginners Yoga </a>
+              </button>
+              <button class="latest-classes">
+                <a href="#"> Stretching </a>
+              </button>
+              <button class="latest-classes">
+                <a href="#" id="fly-yoga"> Fly-Yoga </a>
+              </button>
+              <button class="latest-classes">
+                <a href="#" id="yin-yoga"> Yin-Yoga </a>
+              </button>
+              <button class="latest-classes">
+                <a href="#" id="flo-yoga"> Flo-Yoga </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="left-img">
+            <img
+              src="assets/images/yoga_classes-trainer.png"
+              alt="Yoga Classes Trainer"
+            >
+          </div>
+
+          <div class="right-col">
+            <div class="yoga-step">
+              <h5>Beginners Yoga</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Sed sagittis dis vitae
+                suspendisse adipiscing magna arcu et nibh. Felis lectus sit
+                aliquet gravida pretium dui netus et. Lacus in molestie in diam
+                lorem.
+              </p>
+            </div>
+            <div class="step-row">
+              <div class="step-count">
+                <h3>1</h3>
+                <h5>Free Rugs</h5>
+                <p>
+                  Felis lectus sit aliquet gravida pretium dui netus et. Lacus
+                  in molestie in diam lorem
+                </p>
+              </div>
+              <div class="step-count">
+                <h3>2</h3>
+                <h5>Spa Area</h5>
+                <p>
+                  Felis lectus sit aliquet gravida pretium dui netus et. Lacus
+                  in molestie in diam lorem
+                </p>
+              </div>
+            </div>
+            <div class="step-row">
+              <div class="step-count">
+                <h3>3</h3>
+                <h5>Free Lessons</h5>
+                <p>
+                  Felis lectus sit aliquet gravida pretium dui netus et. Lacus
+                  in molestie in diam lorem
+                </p>
+              </div>
+              <div class="step-count">
+                <h3>4</h3>
+                <h5>Changing Rooms</h5>
+                <p>
+                  Felis lectus sit aliquet gravida pretium dui netus et. Lacus
+                  in molestie in diam lorem
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="free-trail-btn">
+          <a href="#">Get A Free Trail</a>
+        </div>
+      </div>
+    </section>
+
+    <!--LATEST-CLASSES-SECTION-END -->
+
+    <!-- OUR-GREAT-TEAM-SECTION-START -->
+
+    <section class="our-team">
+      <div class="container">
+        <div class="center-text">
+          <h2>Our Great Team</h2>
+          <p>Sub Heading To Explain More</p>
+          <p>
+            At arcu neque aliquet laoreet. Id egestas mauris tincidunt ut nulla
+            cras. Non eget sem curabitur vehicula diam integer. Magna tortor
+            dignissim imperdiet pulvinar ante sed metus consequat in. Feugiat id
+            ipsum lacinia nec nunc odio pellentesque
+          </p>
+        </div>
+        <div class="team-gallery">
+          <div class="team-row">
+            <div>
+              <img src="assets/images/team-member-1.png" alt="Team Member" >
+            </div>
+            <div>
+              <img src="assets/images/team-member-6.png" alt="Team Member" >
+            </div>
+            <div>
+              <img src="assets/images/team-member.png" alt="Team Member" >
+            </div>
+          </div>
+          <div class="team-row">
+            <div>
+              <img src="assets/images/team-member-2.png" alt="Team Member" >
+            </div>
+            <div>
+              <img src="assets/images/team-member-3.png" alt="Team Member" >
+            </div>
+            <div>
+              <img src="assets/images/team-member-4.png" alt="Team Member" >
+            </div>
+          </div>
+        </div>
+        <div class="more-about-us-btn">
+          <a href="#">Learn More About Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR-GREAT-TEAM-SECTION-END -->
+
+    <!-- FREE-30 DAYS-MEMBERSHIP-SECTION-START -->
+
+    <div class="main-container">
+    <section class="membership" id="about">
+      <div class="container">
+        <div class="right-end">
+          <div class="message-box">
+            <h2>Free 30-Days Membership</h2>
+            <p>
+              At arcu neque aliquet laoreet. Id egestas mauris tincidunt ut
+              nulla cras. Non eget sem curabitur vehicula diam integer. Magna
+              tortor dignissim imperdiet pulvinar ante sed metus consequat in.
+              Feugiat id ipsum lacinia nec nunc odio pellentesque.
+            </p>
+            <div class="hero-buttons">
+              <button class="btn-book">
+                <a href="#">Book A Session</a>
+              </button>
+              <div class="contact-us">
+                <a href="#">Contact Us</a>
+                <img
+                  src="assets/images/ph_caret-circle-right.svg"
+                  alt="Right Icon Circle"
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <!-- FOOTER-START -->
+
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-row">
+          <div class="logo-container">
+            <a href="#">
+              <img
+                src="assets/images/fitness_logo-web.svg"
+                alt="Logo"
+                class="logo-img"
+              >
+              <div class="logo-text">
+                <h5>Great<span> Fitness</span></h5>
+                <h6>Yoga Studio</h6>
+              </div>
+            </a>
+          </div>
+          <nav class="nav-links-foot">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li>
+                <a href="#our-facility"> Services </a>
+              </li>
+              <li>
+                <a href="#our-facility"> Our Facility </a>
+              </li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="foot-line"></div>
+        <div class="row">
+          <div class="social-icons">
+            <div>
+              <a href="https://www.instagram.com" target="_blank">
+                <img src="assets/images/instagram_icon.svg" alt="Instagram Icon" >
+              </a>
+            </div>
+            <div>
+              <a href="https://x.com" target="_blank">
+                <img src="assets/images/x-twitter_icon.svg" alt="X-Twitter Icon" >
+              </a>
+            </div>
+            <div>
+              <a href="https://www.facebook.com" target="_blank">
+                <img src="assets/images/facebook_icon.svg" alt="Facebook Icon" >
+              </a>
+            </div>
+            <div>
+              <a href="https://www.youtube.com" target="_blank">
+                <img src="assets/images/youtube_icon.svg" alt="Youtube Icon" >
+              </a>
+            </div>
+          </div>
+
+          <div class="copyright-text">
+            <p>
+              Made With Love By ❤️<a
+                href="https://github.com/surendrapatel18"
+                target="_blank"
+                >SURIYA CHAOUDHARY</a
+              >All &copy; <span id="current-year"></span> Right Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
